@@ -16,7 +16,7 @@ While working on _Adagrams_, it may help to think of a physical metaphor for thi
 
 In this version of _Adagrams_, we will only be working with the English alphabet.
 
-![an image of a pile of letter tiles](assets/letter-tiles.jpg)
+![an image of a pile of letter tiles](assets/letter-tiles.jpeg)
 
 
 ## Project Development
