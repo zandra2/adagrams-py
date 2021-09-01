@@ -7,5 +7,5 @@ def uses_available_letters(word, letter_bank):
 def score_word(word):
     pass
 
-def get_highest_word_score():
+def get_highest_word_score(word_list):
     pass

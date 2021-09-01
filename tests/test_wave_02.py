@@ -45,5 +45,6 @@ def test_uses_available_letters_does_not_change_letter_bank():
     is_valid = uses_available_letters(word, letters)
 
     # Assert
+    assert is_valid == True
     assert letters == letters_copy
     
