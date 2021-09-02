@@ -74,11 +74,11 @@ $ deactivate
 
 ## Project Write-Up: How to Complete and Submit
 
-#TODO: Do we want to ask students to add a "working in pairs" reflection writeup??
-
 Go through the waves one-by-one and build the features of this game.
 
 At submission time, no matter where you are, submit the project via Learn.
+
+Both teammates must submit in Learn.  In addition to submitting the repo and the pull request, fill out the section 'Reflect on Pair Programming'.
 
 ## Project Directions
 
