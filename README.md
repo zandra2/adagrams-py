@@ -106,7 +106,7 @@ All team members:
 - [ ] Activate the virtual environment `venv`
 - [ ] Install the dependencies with `pip`
 
-## Porject Development Workflow
+## Project Development Workflow
 
 1. When you want to begin work on this project, ensure that your virtual environment is activated:
 
