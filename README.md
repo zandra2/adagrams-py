@@ -172,6 +172,7 @@ $ pytest -s
 
 ## Project Write-Up: How to Complete and Submit
 
+
 The goal of this project is to write code in `game.py` so each of the functions meet the requirements outlined in the Project Directions below. 
 
 Go through the waves one-by-one and build the features of this game.
@@ -181,6 +182,7 @@ You will use play-testing and unit tests to drive your development.
 At submission time, no matter where you are, submit the project via Learn.
 
 In addition to submitting your Pull Request, submit a reflection the the pair programming reflection prompt.
+
 
 ## Project Directions
 
