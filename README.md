@@ -32,7 +32,7 @@ Follow these directions once, a the beginning of your project:
 
 ![Fork Button](images/fork.png)
 
-2. In Github, add the other membe(s) of your team as collaborators to the repository. Do this by a The student who forked the respository should first choosing **Settings** from the top menu bar, then **Manage access** from the left navigation, and finally **Invite teams or people**.
+2. In Github, add the other member(s) of your team as collaborators to the repository. Do this by a The student who forked the respository should first choosing **Settings** from the top menu bar, then **Manage access** from the left navigation, and finally **Invite teams or people**.
 
 You can find detailed instructions [here](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/).
 
@@ -198,7 +198,7 @@ We recommend spending at least a portion of the time pair programming and workin
 
 Take time to read through the Wave 1 implementation requirements and the tests for wave 1. Write down your questions, and spend some time going through your understanding of the requirements and tests with your pair. Make sure you both can run `$ pytest` and see the tests fail.
 
-If, after you and your pair have taken some time to think through the problem and would like direction for how to dissect the problem, or if you need clarity on the terms/vocabulary we used in this project, you can check out [a small hint we've provided](../project_docs/hints.md).
+If, after you and your pair have taken some time to think through the problem and would like direction for how to dissect the problem, or if you need clarity on the terms/vocabulary we used in this project, you can check out [a small hint we've provided](./project_docs/hints.md).
 
 ### Wave 1: draw_letters
 
