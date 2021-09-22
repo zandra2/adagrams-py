@@ -30,20 +30,20 @@ def draw_letters():
         'Y': 2,
         'Z': 1
     }
-    #making an array of all the tiles
+    # making an array of all the tiles
     letters = []
     for key, value in LETTER_POOL.items():
         for num in range(0, value):
             letters.append(key)
 
-    #scrambling the tiles and return the first 10
+    # scrambling the tiles and return the first 10
     random.shuffle(letters)
     return letters[0:10]
 
 
 def uses_available_letters(word, letter_bank):
 
-    #count the letters in letter_bank 
+    # count the letters in letter_bank
     new_dict = {}
     for char in letter_bank:
         if char not in new_dict:
@@ -51,32 +51,37 @@ def uses_available_letters(word, letter_bank):
         else:
             new_dict[char] += 1
 
-    #checking to see if letter is in letter_bank
+    # checking to see if letter is in letter_bank
     for letter in word:
         if letter not in new_dict:
             return False
         elif new_dict[letter] == 0:
             return False
-        else:   #remove a tile if already used
+        else:  # remove a tile if already used
             new_dict[letter] -= 1
 
     return True
+
 
 def score_word(word):
     POINT_VALUES = {
         "A": 1, "E": 1, "I": 1, "O": 1, "U": 1, "L": 1, "N": 1, "R": 1, "S": 1, "T": 1,
         "D": 2, "G": 2,
-        "B": 3, "C": 3, "M": 3, "P:": 3,
+        "B": 3, "C": 3, "M": 3, "P": 3,
         "F": 4, "H": 4, "V": 4, "W": 4, "Y": 4,
         "K": 5,
         "J": 8, "X": 8,
         "Q": 10, "Z": 10
     }
 
-    #calculate the total points for each letter
+    # calculate the total points for each letter
     sum = 0
+    if len(word) > 6:
+        sum += 8
+
     for letter in word:
-        sum += POINT_VALUES[letter]
+        upper_letter = letter.upper()
+        sum += POINT_VALUES[upper_letter]
 
     return sum
 
